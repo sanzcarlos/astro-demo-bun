@@ -1,6 +1,7 @@
 # .github/workflows/vercel_prod_deploy.yml
 name: Vercel Production Deployment
 env:
+  # https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 on:
